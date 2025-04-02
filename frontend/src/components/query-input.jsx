@@ -94,14 +94,14 @@ export default function QueryInput({ onSubmit }) {
         <p className="mt-3 text-xs text-gray-500">By Diksha Velhal</p>
       </h1>
 
-      <div className="mb-6 p-4 bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700">
-        <p className="font-bold">Disclaimer:</p>
-        <p>The hosted version of this application only supports the Iris dataset.</p>
-        <p>
-          To test the 'Upload Database' feature with custom datasets, please run the application locally using the
-          provided GitHub code.
-        </p>
-      </div>
+        {/* <div className="mb-6 p-4 bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700">
+          <p className="font-bold">Disclaimer:</p>
+          <p>The hosted version of this application only supports the Iris dataset.</p>
+          <p>
+            To test the 'Upload Database' feature with custom datasets, please run the application locally using the
+            provided GitHub code.
+          </p>
+        </div> */}
 
       {errorMessage && <div className="mb-4 p-3 bg-red-100 text-red-700 rounded-md">{errorMessage}</div>}
 
